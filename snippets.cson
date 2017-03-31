@@ -1,0 +1,123 @@
+## Javascript Snippets
+'.source.js':
+  'Use Strict':
+    'prefix': 'usestrict'
+    'body': '"use strict";'
+  'Console Table':
+    'prefix': 'console.table'
+    'body': 'console.table($0);'
+  'Comment':
+    'prefix': '/'
+    'body': '/*\t$0 */'
+  'Number()':
+    'prefix': 'number'
+    'body': 'Number($1)'
+  'String()':
+    'prefix': 'string'
+    'body': 'String($1)'
+  'typeof':
+    'prefix': 'typeof'
+    'body': 'typeof'
+  'const':
+    'prefix': 'const'
+    'body': 'const $1 = $2;\n$0'
+  'length':
+    'prefix': 'length'
+    'body': 'length'
+  'toUpperCase':
+    'prefix': 'toUpperCase'
+    'body': 'toUpperCase()'
+  'toFixed()':
+    'prefix': 'tofixed'
+    'body': 'toFixed($1)'
+  'break':
+    'prefix': 'break'
+    'body': 'break;'
+  'Immediately Invoked Function Expression':
+    'prefix': 'iife'
+    'body': '(function $1(global) {\n\t$0\n}(window));'
+
+## CSS Snippets
+
+'.source.css':
+  'Helvetica':
+    'prefix': 'ffshelvetia'
+    'body': 'Helvetica, Arial, "Lucida Grande", sans-serif'
+  'Helvetica Neue':
+    'prefix': 'ffsHelvetica-Neue'
+    'body': '"Helvetica Neue", Helvetica, Arial, sans-serif'
+  'Optima':
+    'prefix': 'ffsOptima'
+    'body': 'Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif'
+  'Futura':
+    'prefix': 'ffsFutura'
+    'body': 'Futura, "Trebuchet MS", Arial, sans-serif'
+  'Gill Sans':
+    'prefix': 'ffsGillsans'
+    'body': '"Gill Sans", "Gill Sans MT", Calibri, sans-serif'
+  'Tahoma, Geneva, Verdana, sans-serif':
+    'prefix': 'ffsTahoma'
+    'body': 'Tahoma, Geneva, Verdana, sans-serif'
+  'Trebuchet':
+    'prefix': 'ffsTrebuchet'
+    'body': '"Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif'
+  'Verdana':
+    'prefix': 'ffsVerdana'
+    'body': 'Verdana, Geneva, sans-serif'
+  'Lucida':
+    'prefix': 'ffsLucida'
+    'body': '"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif'
+  'Geneva':
+    'prefix': 'ffsGeneva'
+    'body': 'Geneva, Tahoma, Verdana, sans-serif'
+  'Segoe':
+    'prefix': 'ffsSegoe'
+    'body': 'Segoe, "Segoe UI", "Helvetica Neue", Arial, sans-serif'
+  'Candara':
+    'prefix': 'ffsCandara'
+    'body': 'Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif'
+  'Calibri':
+    'prefix': 'ffsCalibri'
+    'body': 'Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif'
+  'Franklin Gothic Medium':
+    'prefix': 'ffsFranklin'
+    'body': '"Franklin Gothic Medium", Arial, sans-serif'
+  'Georgia':
+    'prefix': 'ffsGeorgia'
+    'body': 'Georgia, "Times New Roman", Times, serif'
+  'Garamond':
+    'prefix': 'ffsGaramond'
+    'body': 'Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif'
+  'Lucida Bright':
+    'prefix': 'ffsLucidaBright'
+    'body': '"Lucida Bright", Georgia, serif'
+  'Palatino':
+    'prefix': 'ffsPalatino'
+    'body': 'Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif'
+  'Didot':
+    'prefix': 'ffsDidot'
+    'body': 'Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif'
+  'Baskerville':
+    'prefix': 'ffsBaskerville'
+    'body': 'Baskerville, "Baskerville old face", "Hoefler Text", Garamond, "Times New Roman", serif'
+  'Hoefler':
+    'prefix': 'ffsHoefler'
+    'body': '"Hoefler Text", "Baskerville old face", Garamond, "Times New Roman", serif'
+  'Bodoni':
+    'prefix': 'ffsBodoni'
+    'body': '"Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif'
+  'Goudy':
+    'prefix': 'ffsGoudy'
+    'body': '"Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif'
+  'Constantia':
+    'prefix': 'ffsConstantia'
+    'body': 'Constantia, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif'
+  'Cambria':
+    'prefix': 'ffsCambria'
+    'body': 'Cambria, Georgia, serif'
+  'Book Antiqua':
+    'prefix': 'ffsBookAntiqua'
+    'body': '"Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif'
+  'Mono':
+    'prefix': 'ffsMono'
+    'body': '"Andale Mono", Courier, monospace'

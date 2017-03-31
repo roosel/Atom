@@ -1,0 +1,86 @@
+"*":
+  "atom-beautify":
+    css: {}
+    general:
+      analytics: false
+    html:
+      beautify_on_save: true
+      wrap_line_length: 100000
+    js: {}
+    json:
+      beautify_on_save: true
+    markdown: {}
+    scss: {}
+  core:
+    disabledPackages: [
+      "language-go"
+      "wrap-guide"
+      "language-csharp"
+      "language-clojure"
+      "language-java"
+      "language-make"
+      "language-objective-c"
+      "language-perl"
+      "language-python"
+      "language-ruby"
+      "language-ruby-on-rails"
+      "language-toml"
+      "background-tips"
+      "autoflow"
+      "language-c"
+      "language-less"
+      "language-xml"
+      "welcome"
+      "metrics"
+      "exception-reporting"
+      "language-php"
+      "language-html"
+      "javascript-snippets"
+      "deprecation-cop"
+    ]
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db"
+      "desktop.ini"
+      "node_modules"
+    ]
+    openEmptyEditorOnStart: false
+    packagesWithKeymapsDisabled: [
+      "escape-utils"
+    ]
+    telemetryConsent: "limited"
+    useCustomTitleBar: true
+  editor:
+    preferredLineLength: 80
+    showIndentGuide: true
+    tabLength: 4
+    tabType: "hard"
+  "exception-reporting":
+    userId: "d395dc69-4b30-628d-f880-b7bae1732773"
+  "file-icons": {}
+  "git-diff":
+    showIconsInEditorGutter: true
+  linter: {}
+  "linter-ui-default":
+    showPanel: true
+  "merge-conflicts":
+    gitPath: "/usr/bin/git"
+  minimap:
+    plugins:
+      "minimap-autohide": true
+      "minimap-autohideDecorationsZIndex": 0
+    scrollAnimationDuration: 100
+  "status-bar": {}
+  "tree-view":
+    alwaysOpenExisting: true
+    hideIgnoredNames: true
+  "w3c-validation":
+    cssMedia: "braille"
+    hideOnNoErrors: true
+    useFoldModeAsDefault: true
+  welcome:
+    showOnStartup: false
