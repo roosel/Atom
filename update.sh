@@ -1,4 +1,4 @@
 #!/bin/bash
 
 cd ~/Documents/Dev/Atom
-git pull origin master
+git pull origin mac
