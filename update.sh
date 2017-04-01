@@ -1,4 +1,4 @@
 #!/bin/bash
 
-take ~/Documents/Dev
-git clone https://github.com/PuddletownDesign/Atom
+cd ~/Documents/Dev/Atom
+git pull origin master

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-take ~/Documents/Dev
+cd ~/Documents/Dev
 git clone https://github.com/PuddletownDesign/Atom
 ln -s ~/Documents/Dev/Atom/ ~/.atom
 brew cask install atom
