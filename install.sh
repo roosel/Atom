@@ -1,7 +1,8 @@
 #!/bin/bash
 
-cd ~/Documents/Dev
+cd ~/Config
 git clone https://github.com/PuddletownDesign/Atom
-ln -s ~/Documents/Dev/Atom/ ~/.atom
+git checkout origin/linux
+ln -s ~/Config/Atom/ ~/.atom
 brew cask install atom
 apm install --packages-file Atom/packages.list
