@@ -1,4 +1,7 @@
 #!/bin/bash
+
+cd ~/Config/Atom
+
 git checkout linux
 
 rm -rf ~/.atom
