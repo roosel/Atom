@@ -2,5 +2,4 @@
 
 
 ln -s ~/Documents/Dev/Atom ~/.atom
-brew cask install atom
-apm install --packages-file Atom/packages.list
+apm install --packages-file ~/Documents/Dev/Atom/packages.list
