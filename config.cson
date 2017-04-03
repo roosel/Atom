@@ -65,7 +65,8 @@
   "git-diff":
     showIconsInEditorGutter: true
   linter: {}
-  "linter-ui-default": {}
+  "linter-ui-default":
+    showPanel: true
   "merge-conflicts":
     gitPath: "/usr/bin/git"
   minimap:
