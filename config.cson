@@ -37,6 +37,8 @@
       "language-html"
       "javascript-snippets"
       "deprecation-cop"
+      "atom-wrap-in-tag"
+      "linter-write-good"
     ]
     ignoredNames: [
       ".git"
@@ -53,7 +55,7 @@
       "escape-utils"
     ]
     telemetryConsent: "limited"
-    useCustomTitleBar: true
+    titleBar: "custom"
   editor:
     preferredLineLength: 80
     showIndentGuide: true
@@ -67,6 +69,8 @@
   linter: {}
   "linter-ui-default":
     showPanel: true
+  "linter-write-good":
+    severityLevel: "Info"
   "merge-conflicts":
     gitPath: "/usr/bin/git"
   minimap:
