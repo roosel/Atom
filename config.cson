@@ -2,6 +2,7 @@
   "atom-beautify":
     css: {}
     general:
+      _analyticsUserId: "50e8b1d5-6b36-43fe-81bc-36fdddf128db"
       analytics: false
     html:
       beautify_on_save: true
