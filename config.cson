@@ -10,7 +10,8 @@
     js: {}
     json:
       beautify_on_save: true
-    markdown: {}
+    markdown:
+      beautify_on_save: true
     scss: {}
   core:
     disabledPackages: [
@@ -68,10 +69,11 @@
   "git-diff":
     showIconsInEditorGutter: true
   linter: {}
-  "linter-ui-default":
-    showPanel: true
+  "linter-ui-default": {}
   "linter-write-good":
     severityLevel: "Info"
+  "markdown-preview":
+    useGitHubStyle: true
   "merge-conflicts":
     gitPath: "/usr/bin/git"
   minimap:
@@ -89,3 +91,6 @@
     useFoldModeAsDefault: true
   welcome:
     showOnStartup: false
+".gfm.source":
+  editor:
+    nonWordCharacters: "/\\()\"':,.;"
