@@ -12,6 +12,7 @@
       beautify_on_save: true
     markdown:
       beautify_on_save: true
+      default_beautifier: "Remark"
     scss: {}
   core:
     disabledPackages: [
@@ -69,7 +70,9 @@
   "git-diff":
     showIconsInEditorGutter: true
   linter: {}
-  "linter-ui-default": {}
+  "linter-markdown": {}
+  "linter-ui-default":
+    showPanel: true
   "linter-write-good":
     severityLevel: "Info"
   "markdown-preview":
