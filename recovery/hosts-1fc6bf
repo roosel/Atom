@@ -1,0 +1,16 @@
+##
+# Host Database
+#
+# localhost is used to configure the loopback interface
+# when the system is booting.  Do not change this entry.
+##
+127.0.0.1	localhost
+255.255.255.255	broadcasthost
+::1             localhost
+# Iskysoft Imedia Coverter Deluxe cr@ck by c0ld8x
+127.0.0.1 cbs.iskysoft.com
+127.0.0.1 api.iskysoft.com
+127.0.0.1 184.173.254.16
+
+# vHosts/ VMs
+192.168.0.11 debian-9.server

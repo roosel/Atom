@@ -71,8 +71,7 @@
     showIconsInEditorGutter: true
   linter: {}
   "linter-markdown": {}
-  "linter-ui-default":
-    showPanel: true
+  "linter-ui-default": {}
   "linter-write-good":
     severityLevel: "Info"
   "markdown-preview":
