@@ -38,10 +38,10 @@
       "exception-reporting"
       "language-php"
       "language-html"
-      "javascript-snippets"
       "deprecation-cop"
       "atom-wrap-in-tag"
       "linter-write-good"
+      "autocomplete-html"
     ]
     ignoredNames: [
       ".git"
@@ -87,6 +87,9 @@
   "tree-view":
     alwaysOpenExisting: true
     hideIgnoredNames: true
+  "vim-mode-plus":
+    groupChangesWhenLeavingInsertMode: false
+    notifiedCoffeeScriptNoLongerSupportedToExtendVMP: true
   "w3c-validation":
     cssMedia: "braille"
     hideOnNoErrors: true
