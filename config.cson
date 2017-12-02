@@ -89,7 +89,6 @@
     hideIgnoredNames: true
   "vim-mode-plus":
     groupChangesWhenLeavingInsertMode: false
-    notifiedCoffeeScriptNoLongerSupportedToExtendVMP: true
   "w3c-validation":
     cssMedia: "braille"
     hideOnNoErrors: true
