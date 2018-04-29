@@ -14,6 +14,8 @@
       beautify_on_save: true
       default_beautifier: "Remark"
     scss: {}
+  "autocomplete-python":
+    useKite: false
   core:
     disabledPackages: [
       "language-go"
