@@ -7,7 +7,9 @@
     html:
       beautify_on_save: true
       wrap_line_length: 100000
-    js: {}
+    js:
+      indent_size: 2
+      space_before_conditional: false
     json:
       beautify_on_save: true
     markdown:
@@ -72,8 +74,10 @@
   "git-diff":
     showIconsInEditorGutter: true
   linter: {}
+  "linter-js-standard": {}
   "linter-markdown": {}
-  "linter-ui-default": {}
+  "linter-ui-default":
+    showPanel: true
   "linter-write-good":
     severityLevel: "Info"
   "markdown-preview":
@@ -85,6 +89,9 @@
       "minimap-autohide": true
       "minimap-autohideDecorationsZIndex": 0
     scrollAnimationDuration: 100
+  "standard-formatter":
+    formatOnSave: true
+    honorPackageConfig: false
   "status-bar": {}
   "tree-view":
     alwaysOpenExisting: true
@@ -100,3 +107,13 @@
 ".gfm.source":
   editor:
     nonWordCharacters: "/\\()\"':,.;"
+".js.regexp.replacement.source":
+  editor:
+    tabLength: 2
+".js.regexp.source":
+  editor:
+    tabLength: 2
+".js.source":
+  editor:
+    tabLength: 2
+    tabType: "auto"
